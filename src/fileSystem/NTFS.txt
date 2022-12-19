@@ -1,0 +1,20 @@
+So, you might be wondering future Sam, why i hate myself enough
+to implement the NTFS (New Technology File System) in my OS...
+well the simple answer is that i really want it to work with
+Windows and other commonly used operating systems, and using
+an obscure filesystem just feels wrong. Please remember that.
+
+
+How Have I Set Up The Partition Table?
+CHS Values
+
+Heads: 24
+Cylinders: 980
+Sectors Per Cylinder: 62
+Size Of Each Sector: 512
+
+Total Capacity:
+Bytes: 746618880
+KB: 729120
+MB: 712.03125
+GB: 0.695343017578125

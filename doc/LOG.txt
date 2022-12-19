@@ -1,0 +1,17 @@
+Entry 1 - Issue with implementing an NTFS BPB:
+I have encountered a strange issue whilst attempting to implement a BIOS parameter block
+for the NTFS file system, upon compilation some of the entrys return the error
+'warning: byte data exceeds bounds [-w+number-overflow]'. This occurs with entrys such as
+'bytes per sector entry'. Under official microsoft documentation, they provide a sample
+entry as '0x0002' however, they also state that under normal convention, the value is
+512 (DEC), which is 0x200 (HEX). This brings into question the endianess convention of the
+NTFS BPB, which is some cases seems to use big-endian notation, and in other cases seems
+to use little-endian notation...
+
+Entry 2 - NTFS BPB Formatting:
+I managed to implement NTFS at one point, however, overnight it seems to have failed...
+
+Entry 3 - Goodbye NTFS:
+Decided NTFS was too difficult to implement for now... Perhaps in a later version of the
+OS i can try again, but for now, i am migrating to FAT12.
+

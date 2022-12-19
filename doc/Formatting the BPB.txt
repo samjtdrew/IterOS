@@ -1,0 +1,40 @@
+e8 51 00 4e 54 46 53 20	20 20 20 00 02 08 00 00
+00 00 00 00 00 f8 00 00	3f 00 ff 00 3f 00 00 00
+00 00 00 00 00 00 00 00	40 40 16 00 00 00 00 00
+00 00 04 00 00 00 00 00	54 ff 07 00 00 00 00 00
+f6 00 00 00 01 00 00 00	14 a5 1b 74 c9 1b 74 1c
+00 00 00
+
+
+e8 51 00 4e 54 46 53 20	20 20 20 >> Not Part Of The BPB
+
+00 02 >> Bytes Per Sector
+08 >> Sectors Per Cluster
+00 00 >> Reserved Sectors
+
+00 00 00 >> NTFS Mounting Data
+00 00 >> NTFS Mounting Data
+
+f8 >> Media Descriptor
+
+00 00 >> NTFS Mounting Data
+3f 00 >> Not Used By NTFS
+ff 00 >> Not Used By NTFS
+3f 00 00 00 >> Not Used By NTFS
+00 00 00 00 >> NTFS Mounting Data
+00 00 00 00 >> Not Used By NTFS
+
+40 40 16 00 00 00 00 00 >> Total Sectors
+00 00 04 00 00 00 00 00 >> Logical Cluster Of $MFT
+54 ff 07 00 00 00 00 00 >> Logical Cluster Of $MFTMIRR
+f6 >> Clusters Per MFT Record
+
+00 00 00 >> Not Used By NTFS
+
+01 >> Clusters Per Index Buffer
+
+00 00 00 >> Not Used By NTFS
+
+14 a5 1b 74 c9 1b 74 1c >> Volume Serial Number
+
+00 00 00 >> Not Used By NTFS

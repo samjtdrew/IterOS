@@ -1,0 +1,10 @@
+Partition Size Schematic @10MB:
+10MB = 10485760 Bytes
+Bytes Per Sector = 512
+Total Sectors = 20480
+Sectors Per Cylinder = 80
+Cylinders Per Head = 256
+Heads = 1
+
+To increase the partition at an increment of 10MB, increment the number
+of heads
